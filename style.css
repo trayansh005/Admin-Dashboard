@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 100vh;
+	background: rgb(212, 148, 31);
+	display: grid;
+	grid-template-columns: 15% 1fr;
+}
+
+aside {
+	background: #06b6d4;
+	padding: 10%;
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(auto, 1fr);
+	grid-template-rows: auto 1fr;
+}
+
+header {
+	background: coral;
+}
+
+section {
+	background: #1f2937;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo svg {
+	width: 40px;
+	margin-right: 15px;
+	stroke: #070707;
+}
+
+ul {
+	margin-top: 50px;
+	list-style: none;
+}
+
+.sidebar-list a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	gap: 10px;
+	color: #070707;
+}
+
+.sidebar-list svg {
+	width: 26px;
+	stroke: #070707;
+}
+
+.settings {
+	margin-top: 50px;
+}
+
+header {
+	padding: 15px 50px;
+	display: grid;
+	grid-template: max-content / 1fr max-content;
+}
+
+.searchbar {
+	display: grid;
+	gap: 10px;
+	align-items: center;
+	grid-template-columns: max-content 0.5fr;
+}
+
+.searchbar svg {
+	width: 18px;
+}
+
+#search {
+	padding: 5px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+}
+
+.user-menu {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.user-menu svg {
+	width: 24px;
+}
+
+.avatar {
+	display: block;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+button {
+	padding: 5px 15px;
+	font-size: 18px;
+	border: none;
+	background: #2563eb;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+section {
+	padding: 30px;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	gap: 30px;
+}
+
+.projects {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto repeat(5, 1fr);
+	gap: 30px;
+}
+
+.section-title {
+	grid-column: 1 / -1;
+}
+
+.project {
+	background: #06b6d4;
+	padding: 30px;
+	gap: 10px;
+}
+
+.project h5 {
+	margin-bottom: 15px;
+}
+
+.notifications {
+	display: grid;
+	grid-auto-rows: max-content;
+	grid-template-columns: 1fr;
+	gap: 30px;
+}
+
+.news {
+	padding: 20px 15px;
+	background: #16a34a;
+}
+
+.news-title {
+	margin-bottom: 15px;
+}
+
+.trending-accounts {
+	margin-top: 20px;
+	padding: 15px;
+	background: #0f172a;
+	color: white;
+}
+
+.trending-accounts h3 {
+	margin-bottom: 10px;
+}
